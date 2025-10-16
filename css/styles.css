@@ -293,13 +293,15 @@ textarea{
     }
 }
 
+/* Para volver a mostrar la seccion cambiar display: none por: display: grid */
 .redes{
-    display: grid;
+    display: none;
     grid-template-columns: repeat(2, 1fr);
 }
 @media (min-width:480px){
+    /* Para volver a mostrar la seccion cambiar display: none por: display: inline-flex */
     .redes{
-        display: inline-flex;
+        display: none;
     }
 }
 
